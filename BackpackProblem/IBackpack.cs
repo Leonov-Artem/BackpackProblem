@@ -8,6 +8,6 @@ namespace BackpackProblem
 {
     interface IBackpack<T>
     {
-
+        List<T> Solution();
     }
 }
