@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace BackpackProblem
 {
-    class Program
+    class Backpack<T> : IBackpack<T> where T : IComparable
     {
-        static void Main(string[] args)
-        {
 
-        }
     }
 }
